@@ -24,7 +24,9 @@ main{
     padding: 20px;
 }
 
-
+picture{
+    margin: auto;
+}
 
 .biografia h1{
     text-align: center;
