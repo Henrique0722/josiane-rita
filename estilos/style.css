@@ -64,6 +64,7 @@ main{
 .terapia h1, h2{
     text-align: center;
     margin: 0;
+    padding: 15px;
     
 }
 
@@ -75,6 +76,13 @@ main{
 ul{
     margin: 0;
     font-size: 20px;
+}
+
+.beneficios p{
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    line-height: 25px;
 }
 
  
