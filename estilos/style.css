@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 /*Versão Mobile First*/
-
+body{
+    margin: 0;
+}
 :root{
     --cor1: #a70051;
     --cor2: #5f1e23;
