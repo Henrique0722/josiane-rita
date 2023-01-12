@@ -14,11 +14,13 @@ main{
      background-image: url(../imagens/back-mobile.jpg);
      background-position: center center;
      background-size: cover;
+     
 }
 
 .biografia{
     text-align: justify;
 }
+
 
 .biografia h1{
     text-align: center;
@@ -35,10 +37,28 @@ main{
     max-width: 360px;
     margin: auto;
     padding: 8px;
-    line-height: 23px;
+    line-height: 25px;
     font-size: 18px;
     background-color: #5f1e23cb;
     color: white;
+}
+
+.terapia{
+    background-color: var(--cor1);
+    color: white;
+    
+}
+.terapia p{
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+.terapia h1, h2{
+    text-align: center;
+    
 }
 
  
