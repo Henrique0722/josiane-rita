@@ -40,7 +40,7 @@ main{
     max-width: 360px;
     margin: auto;
     padding: 8px;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 18px;
     background-color: #5f1e23cb;
     color: white;
@@ -52,7 +52,7 @@ main{
     
 }
 .terapia p{
-    line-height: 25px;
+    line-height: 35px;
     font-size: 20px;
     text-align: justify;
     max-width: 600px;
@@ -72,6 +72,7 @@ main{
 }
 ul{
     margin: 0;
+    font-size: 20px;
 }
 
  
