@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*Versão Mobile First*/
+
+:root{
+    --cor1: #a70051;
+    --cor2: #5f1e23;
+    --cor3: #ffb804;
+    --cor4: #cea34e;
+    --cor5: #3c5970;
+    --cor6: #5b8379;
+}
+main{
+     background-image: url(../imagens/back-mobile.jpg);
+     background-position: center center;
+     background-size: cover;
+}
+
+.biografia{
+    text-align: justify;
+}
+
+.biografia h1{
+    text-align: center;
+    color: white;
+    background-color: var(--cor2);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+}
+.biografia p{
+    max-width: 360px;
+    margin: auto;
+    padding: 8px;
+    line-height: 23px;
+    font-size: 18px;
+    background-color: #5f1e23cb;
+    color: white;
+}
+
+ 
