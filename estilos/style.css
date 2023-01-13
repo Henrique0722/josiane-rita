@@ -121,4 +121,37 @@ ul{
     line-height: 35px;
 }
 
+
+.livro{
+    padding: 20px;
+    background-color: var(--cor6);
+    color: white;
+}
+
+.livro p{
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    line-height: 25px;
+}
+.livro img{
+    border-radius: 35px 0px 35px 0px;
+}
+
+.img-livro{
+    text-align: center;
+}
+
  
+
+footer{
+    background-color: black;
+    color: white;
+
+}
+.logo-hd{
+    text-align: center;
+}
+.logo-hd h3{
+    margin: 0;
+}
