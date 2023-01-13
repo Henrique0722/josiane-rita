@@ -12,6 +12,33 @@ body{
     --cor5: #3c5970;
     --cor6: #5b8379;
 }
+header{
+    height: 100px;
+}
+.logo{
+    border-radius: 50px;
+    
+}
+header > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--cor4);
+    height: 100%;
+
+}
+header > nav > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5 px;
+    border-radius: 5px;
+
+}
+header> nav > a:hover{
+    transition: 0.4s;
+    background-color: #ffb804;
+}
 main{
      background-image: url(../imagens/back-mobile.jpg);
      background-position: center center;
@@ -30,9 +57,10 @@ picture{
 
 .biografia h1{
     text-align: center;
+    padding: 8px;
     color: white;
     background-color: var(--cor2);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
     max-width: 250px;
     margin: auto;
     margin-bottom: 20px;
