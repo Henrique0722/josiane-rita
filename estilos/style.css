@@ -37,7 +37,7 @@ header > nav > a{
 }
 header> nav > a:hover{
     transition: 0.4s;
-    background-color: #ffb804;
+    background-color: #ffb804b2;
 }
 main{
      background-image: url(../imagens/back-mobile.jpg);
