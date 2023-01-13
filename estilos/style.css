@@ -43,7 +43,7 @@ header> nav > a:hover{
     background-color: #5f1e23b7;
 }
 main{
-     background-image: url(../imagens/back-mobile.jpg);
+     background-image: url(../imagens/back-mobile2.jpg);
      background-position: center center;
      background-size: cover;
      
@@ -54,8 +54,11 @@ main{
     padding: 20px;
 }
 
-picture{
-    margin: auto;
+.img-josi{
+   text-align: center;
+}
+.biografia img{
+    border-radius: 35px 0px 35px 0px; 
 }
 
 .biografia h1{
@@ -67,7 +70,7 @@ picture{
     max-width: 250px;
     margin: auto;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 35px 0px 35px 0px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
 }
 .biografia p{
@@ -78,7 +81,7 @@ picture{
     font-size: 18px;
     background-color: #5f1e23cb;
     color: white;
-    border-radius: 10px;
+    border-radius: 35px 0px 35px 0px;
 }
 
 .terapia{
