@@ -13,7 +13,8 @@ body{
     --cor6: #5b8379;
 }
 header{
-    height: 100px;
+    height: 150px;
+    
 }
 .logo{
     border-radius: 50px;
@@ -24,7 +25,9 @@ header > nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--cor4);
+    background-image: url(../imagens/fundo-menu.jpg);
+    background-size: cover;
+    background-position: center bottom;
     height: 100%;
 
 }
@@ -37,7 +40,7 @@ header > nav > a{
 }
 header> nav > a:hover{
     transition: 0.4s;
-    background-color: #ffb804b2;
+    background-color: #5f1e23b7;
 }
 main{
      background-image: url(../imagens/back-mobile.jpg);
