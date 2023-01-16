@@ -59,6 +59,8 @@ main{
 }
 .biografia img{
     border-radius: 35px 0px 35px 0px; 
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.623);
+    border: 1px solid white;
 }
 
 .biografia h1{
@@ -71,7 +73,8 @@ main{
     margin: auto;
     margin-bottom: 20px;
     border-radius: 35px 0px 35px 0px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
 }
 .biografia p{
     max-width: 360px;
@@ -90,17 +93,35 @@ main{
     
     
 }
+.titulo-terapia, .titulo-livro, .titulo-beneficios{
+    text-align: center;
+    padding: 8px;
+    color: white;
+    background-color: var(--cor2);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 35px 0px 35px 0px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.623);
+    border: 1px solid white;
+}
+.box-titulo-terapia{
+    padding-top: 15px;
+}
 .terapia ul{
     font-size: 20px;
     color: white;
     background-color: #5f1e23fa;
     padding: 20px;
     border-radius: 35px 0px 35px 0px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.541);
     width: 300px;
     margin: auto;
 }
 .lista-terapia{
-    padding: 10px;
+    padding: 15px;
+    
 }
 .terapia p{
     line-height: 35px;
@@ -111,7 +132,7 @@ main{
     padding: 0 20px;
     
 }
-.terapia h1, h2{
+.terapia h2{
     text-align: center;
     margin: 0;
     padding: 15px;
