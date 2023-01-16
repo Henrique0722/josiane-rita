@@ -79,7 +79,7 @@ main{
     padding: 8px;
     line-height: 30px;
     font-size: 18px;
-    background-color: #5f1e23cb;
+    background-color: #5f1e23ef;
     color: white;
     border-radius: 35px 0px 35px 0px;
 }
@@ -134,7 +134,7 @@ main{
 .beneficios p{
     text-align: justify;
     margin: auto;
-    background-color: #5f1e23dc;
+    background-color: #5f1e23ee;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
     color: white;
