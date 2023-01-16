@@ -6,7 +6,7 @@ body{
 }
 :root{
     --cor1: #a70051;
-    --cor2: #5f1e23;
+    --cor2: #722429;
     --cor3: #ffb804;
     --cor4: #cea34e;
     --cor5: #3c5970;
@@ -91,12 +91,16 @@ main{
     
 }
 .terapia ul{
-    margin: 0px;
     font-size: 20px;
     color: white;
     background-color: #5f1e23fa;
-    padding: 10px;
+    padding: 20px;
     border-radius: 35px 0px 35px 0px;
+    width: 300px;
+    margin: auto;
+}
+.lista-terapia{
+    margin: 10px;
 }
 .terapia p{
     line-height: 35px;
@@ -129,6 +133,11 @@ main{
     background-color: #5f1e23fa;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
+    margin: auto;
+    width: 300px;
+}
+.lista-beneficios{
+    margin: 10px;
 }
 
 .beneficios p{
