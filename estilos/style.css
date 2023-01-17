@@ -44,7 +44,7 @@ header> nav > a:hover{
 }
 main{
      background-image: url(../imagens/back-mobile2.jpg);
-     background-position: center center;
+     background-position: center top;
      background-size: cover;
      background-attachment: fixed;
      
