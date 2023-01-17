@@ -176,7 +176,7 @@ main{
 
 .livro{
     padding: 20px;
-    background-color: #5f1e23;
+    background-image: linear-gradient( 120deg, #722429, #a70051 );
     color: white;
 }
 
