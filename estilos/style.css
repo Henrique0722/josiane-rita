@@ -46,6 +46,7 @@ main{
      background-image: url(../imagens/back-mobile2.jpg);
      background-position: center center;
      background-size: cover;
+     background-attachment: fixed;
      
 }
 
@@ -143,6 +144,7 @@ main{
     background-image: url(../imagens/922c0cb4-ace3-40c4-b853-8fe56a736819.jpg);
     background-size: cover;
     background-position: center bottom;
+     background-attachment: fixed;
     padding: 20px;
     color: white;
     
