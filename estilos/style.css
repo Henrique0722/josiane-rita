@@ -143,7 +143,7 @@ main{
 .beneficios{
     background-image: url(../imagens/girassol.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center left;
      background-attachment: fixed;
     padding: 20px;
     color: white;

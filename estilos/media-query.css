@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /*Tablet*/
-    
-}
+    @media screen and (min-width: 768px) and (max-width: 992px)  {
+        .biografia p{
+            max-width: 700px;
+        }
+        .biografia h1{
+            width: 500px;
+        
+    }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
+    } 
+
+    @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
+
+        .biografia p{
+            max-width: 900px;
+        }
     
-}
+    }
