@@ -15,6 +15,14 @@
 
         .biografia p{
             max-width: 900px;
+            font-size: 1.2em;
+        }
+         .terapia h1{
+            max-width: 400px;
+            padding: 10px;
+        }
+        .terapia p{
+            max-width: 700px;
         }
     
     }
