@@ -195,6 +195,9 @@ main{
     border-radius: 35px 0px 35px 0px;
     margin: 10px;
 }
+.paragrafo-livro{
+    text-align: center;
+}
 .livro img{
     border-radius: 35px 0px 35px 0px;
 }
