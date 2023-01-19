@@ -114,11 +114,11 @@ main{
 .terapia ul{
     font-size: 20px;
     color: white;
-    background-color: #5f1e23fa;
-    padding: 20px;
+    background-color: #5f1e237c;
+    padding: 10px;
     border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.541);
-    width: 270px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.822);
+    max-width: 400px;
     margin: auto;
 }
 .lista-terapia{
@@ -154,14 +154,14 @@ main{
     margin: 10px 0px 10px 0px;
     font-size: 20px;
     color: white;
-    background-color: #5f1e23fa;
+    background-color: #5f1e23ee;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
     margin: auto;
-    width: 300px;
+    max-width: 400px;
 }
 .lista-beneficios{
-    margin: 10px;
+    margin: 6px;
 }
 
 .beneficios p{
@@ -189,6 +189,11 @@ main{
     font-size: 20px;
     line-height: 25px;
     max-width: 500px;
+    background-color: #7224298c;
+    padding: 15px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
+    border-radius: 35px 0px 35px 0px;
+    margin: 10px;
 }
 .livro img{
     border-radius: 35px 0px 35px 0px;
