@@ -77,6 +77,8 @@ main{
     border-radius: 35px 0px 35px 0px;
     border: 1px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
+    font-family: oxygen ;
+
 }
 .biografia p{
     max-width: 360px;
@@ -87,6 +89,7 @@ main{
     background-image: linear-gradient(to bottom, #722429f3, #a70051e8) ;
     color: white;
     border-radius: 35px 0px 35px 0px;
+    font-family: oxygen ;
 }
 
 .terapia{
@@ -120,6 +123,7 @@ main{
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.822);
     max-width: 400px;
     margin: auto;
+    font-family: oxygen;
 }
 .lista-terapia{
     padding: 15px;
@@ -132,6 +136,7 @@ main{
     max-width: 600px;
     margin: auto;
     padding: 0 20px;
+    font-family: oxygen;
     
 }
 .terapia h2{
@@ -159,6 +164,7 @@ main{
     border-radius: 35px 0px 35px 0px;
     margin: auto;
     max-width: 400px;
+    font-family: oxygen;
 }
 .lista-beneficios{
     margin: 6px;
@@ -174,6 +180,7 @@ main{
     font-size: 20px;
     line-height: 35px;
     max-width: 600px;
+    font-family: oxygen;
     }
 
 
@@ -194,6 +201,7 @@ main{
     box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
     border-radius: 35px 0px 35px 0px;
     margin: 10px;
+    font-family: oxygen;
 }
 .paragrafo-livro{
     text-align: center;
