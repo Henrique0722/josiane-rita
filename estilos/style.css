@@ -71,8 +71,10 @@ main{
     color: white;
     background-color: var(--cor2);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
-    max-width: 250px;
+    max-width: 200px;
+    font-size: 1.4em;
     margin: auto;
+    margin-top: 15px;
     margin-bottom: 20px;
     border-radius: 35px 0px 35px 0px;
     border: 1px solid white;
@@ -86,7 +88,7 @@ main{
     padding: 8px;
     line-height: 30px;
     font-size: 18px;
-    background-image: linear-gradient(to bottom, #722429f3, #a70051e8) ;
+    background-image: linear-gradient(to bottom, #722429f3, #722429f3, #d614729c) ;
     color: white;
     border-radius: 35px 0px 35px 0px;
     font-family: oxygen ;
@@ -106,6 +108,7 @@ main{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
     max-width: 250px;
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 35px 0px 35px 0px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.623);
@@ -116,11 +119,12 @@ main{
 }
 .terapia ul{
     font-size: 20px;
+    text-align: justify;
     color: white;
-    background-color: #5f1e237c;
+    background-color: #5f1e2349;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.822);
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.822);
     max-width: 400px;
     margin: auto;
     font-family: oxygen;
@@ -163,6 +167,7 @@ main{
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
     margin: auto;
+    margin-bottom: 10px;
     max-width: 400px;
     font-family: oxygen;
 }
@@ -173,7 +178,7 @@ main{
 .beneficios p{
     text-align: justify;
     margin: auto;
-    background-color: #5f1e23ee;
+    background-color: #5f1e23e8;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
     color: white;
@@ -226,4 +231,36 @@ footer{
 }
 .logo-hd h3{
     margin: 0;
+}
+
+.mentoria{
+    background-image: url(../imagens/girassol.jpg);
+    background-size: cover;
+    background-position: center left;
+     background-attachment: fixed;
+     color: white;
+}
+.mentoria p{
+    text-align: justify;
+    margin: auto;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 500px;
+    background-color: #722429ea;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
+    border-radius: 35px 0px 35px 0px;
+   
+    font-family: oxygen;
+}
+.p-mentoria{
+    margin: auto;
+}
+
+.l-mentoria{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
 }
