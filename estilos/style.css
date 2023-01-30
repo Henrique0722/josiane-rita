@@ -280,6 +280,7 @@ footer{
 .link:hover{
     transition: 0.5s;
     color: black;
+    background-color: white;
 }
 .link-container{
     margin-top: 18px;
