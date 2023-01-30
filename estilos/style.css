@@ -240,6 +240,7 @@ footer{
     background-position: center left;
      background-attachment: fixed;
      color: white;
+     padding: 20px;
 }
 .mentoria p{
     text-align: justify;
@@ -247,12 +248,12 @@ footer{
     font-size: 18px;
     line-height: 25px;
     max-width: 500px;
-    background-color: #722429ea;
+    background-image: linear-gradient(to bottom, #722429e5, #722429f1, #9c2961ce );
     padding: 15px;
     margin-bottom: 10px;
     box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
     border-radius: 35px 0px 35px 0px;
-   
+    
     font-family: oxygen;
 }
 .p-mentoria{
@@ -260,8 +261,26 @@ footer{
 }
 
 .l-mentoria{
+    margin: auto;
     color: white;
+    background-color: #722429de;
     padding: 10px;
     text-decoration: none;
-    text-align: center;
+    text-align: justify;
+    max-width: 600px;
+}
+.link{
+    background-color: #a70051 ;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px
+
+}
+.link:hover{
+    transition: 0.5s;
+    color: black;
+}
+.link-container{
+    margin-top: 18px;
 }
