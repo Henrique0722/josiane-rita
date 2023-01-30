@@ -61,7 +61,7 @@ main{
 }
 .biografia img{
     border-radius: 35px 0px 35px 0px; 
-    box-shadow: 3 px 5px 5px rgba(0, 0, 0, 0.623);
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.623);
     border: 1px solid white;
 }
 
@@ -91,6 +91,7 @@ main{
     background-image: linear-gradient( to bottom, #722429e5, #722429f1, #9c2961ce );
     color: white;
     border-radius: 35px 0px 35px 0px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.699);
     font-family: oxygen ;
 }
 
@@ -166,6 +167,7 @@ main{
     background-color: #5f1e23ee;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
     margin: auto;
     margin-bottom: 10px;
     max-width: 400px;
@@ -186,6 +188,7 @@ main{
     line-height: 35px;
     max-width: 600px;
     font-family: oxygen;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719)
     }
 
 
@@ -197,7 +200,6 @@ main{
 
 .livro p{
     text-align: justify;
-    margin: auto;
     font-size: 20px;
     line-height: 25px;
     max-width: 500px;
@@ -213,16 +215,15 @@ main{
 }
 .livro img{
     border-radius: 35px 0px 35px 0px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
 }
 
 .img-livro{
     text-align: center;
-}
-
- 
+} 
 
 footer{
-    background-color: black;
+    background-color: rgb(247, 247, 247);
     color: white;
 
 }
