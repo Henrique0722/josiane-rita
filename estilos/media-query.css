@@ -28,12 +28,22 @@
     }
 
     @media screen and (min-width: 1200px) {
+        /*biografia*/
+
     .media-bio{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: stretch;
     }
+
+    .terapia p{
+        max-width: 900px;
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+/*beneficios*/
 
     .beneficios{
         display: flex;
@@ -56,5 +66,15 @@
     .div3 p{
         line-height: 50px;
     }
+
+    /*livro*/
+
+    .link{
+        font-size: 30px;
+        margin-left: 100px;
+        
     }
+    }
+
+
 
