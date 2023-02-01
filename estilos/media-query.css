@@ -26,3 +26,35 @@
         }
     
     }
+
+    @media screen and (min-width: 1200px) {
+    .media-bio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .beneficios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .div1{
+        width: 320px;
+    }
+    .div2 .div3{
+        width: 320px;
+    }
+    .div2 ul{
+        line-height: 57px;
+    }
+    .div1 p{
+        line-height: 40px;
+    }
+    .div3 p{
+        line-height: 50px;
+    }
+    }
+
