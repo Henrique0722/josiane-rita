@@ -11,10 +11,6 @@
     .img{
         height: 400px;
     }
-    .link{
-       
-        
-    }
 
     } 
 
@@ -35,7 +31,7 @@
             height: 500px;
         }
         .link{
-        
+        text-align: center;
             
         }
         .titulo-livro{
@@ -71,7 +67,7 @@
         
     }
     .div1{
-        width: 320px;
+        width: 300px;
     }
     .div2 .div3{
         width: 320px;
@@ -84,6 +80,11 @@
     }
     .div3 p{
         line-height: 50px;
+        width: 320px;
+    }
+    .div3 .titulo-beneficios{
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 
     /*livro*/
@@ -92,9 +93,6 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: stretch;
-    }
-
-    .link{
     }
     .img{
         height: 500px;
