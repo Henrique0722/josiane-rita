@@ -8,6 +8,13 @@
             width: 500px;
         
     }
+    .img{
+        height: 400px;
+    }
+    .link{
+       
+        
+    }
 
     } 
 
@@ -23,6 +30,18 @@
         }
         .terapia p{
             max-width: 700px;
+        }
+        .img{
+            height: 500px;
+        }
+        .link{
+        
+            
+        }
+        .titulo-livro{
+            max-width: 400px;
+            padding: 20px;
+            font-size: 25px;
         }
     
     }
@@ -42,7 +61,7 @@
         font-size: 23px;
         line-height: 40px;
     }
-
+    
 /*beneficios*/
 
     .beneficios{
@@ -68,11 +87,22 @@
     }
 
     /*livro*/
+    .livro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
 
     .link{
-        font-size: 30px;
-        margin-left: 100px;
-        
+    }
+    .img{
+        height: 500px;
+    }
+    .titulo-livro{
+        max-width: 500px;
+        padding: 20px;
+        font-size: 25px;
     }
     }
 
