@@ -304,7 +304,32 @@ main{
     margin: auto;
     
 }
-
+.contato{
+    background-image: linear-gradient(to bottom, #9c2961, #722429 );
+    color: white;
+    text-align: center;
+}
+.icons{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+    
+}
+.icons img{
+    background-color:var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+}
+.contato h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+}
 footer{
     background-color: black;
     color: white;
