@@ -252,7 +252,7 @@ main{
     font-size: 18px;
     line-height: 33px;
     max-width: 500px;
-    background-image: linear-gradient(to bottom, #722429e5, #722429f1, #9c2961ce );
+    background-image: linear-gradient(to bottom, #722429e5, #722429e7, #9c2961ce );
     padding: 15px;
     margin-bottom: 10px;
     box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
@@ -305,7 +305,7 @@ main{
     
 }
 .contato{
-    background-image: linear-gradient(to bottom, #9c2961, #722429 );
+    background-image: linear-gradient(to top, #9c2961, #722429 );
     color: white;
     text-align: center;
 }
@@ -320,10 +320,16 @@ main{
     
 }
 .icons img{
-    background-color:var(--cor4);
     padding: 10px;
+    background-color:var(--cor4);
     border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.753);
 }
+.icons img:hover{
+    transform:translate(-5px, -5px);
+}
+
 .contato h1{
     text-align: center;
     margin: 0;
