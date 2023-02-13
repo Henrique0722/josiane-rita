@@ -220,14 +220,23 @@ main{
 }
 .livro img{
     border-radius: 35px 0px 35px 0px;
-    box-shadow: 12px 9px 8px rgba(0, 0, 0, 0.568);
+    box-shadow: 12px 9px 10px rgba(0, 0, 0, 0.548);
     margin-bottom: 20px;
 }
 
 .img-livro{
     text-align: center;
 } 
+.pai-img-mentoria{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.img-mentoria{
+    border-radius: 35px 0px 35px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
 
+
+}
 .mentoria{
     background-image: url(../imagens/girassol.jpg);
     background-size: cover;
@@ -263,7 +272,7 @@ main{
     border-radius: 35px 0px 38px 0px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
     margin: auto;
-    line-height: 35px;
+    line-height: 45px;
     margin-bottom: 10px;
     max-width: 505px;
     font-family: oxygen;
