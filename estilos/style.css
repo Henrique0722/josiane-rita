@@ -328,6 +328,7 @@ main{
 }
 .icons img:hover{
     transform:translate(-5px, -5px);
+    border: 3px solid white;
 }
 
 .contato h1{
