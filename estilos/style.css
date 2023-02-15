@@ -263,7 +263,16 @@ main{
 .p-mentoria{
     margin: auto;
 }
-
+.sessao-galeria{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+    border-radius: 35px 0px 35px 0px;
+}
+.sessao-galeria img{
+    width: 320px;
+    margin: 2px;
+}
 .l-mentoria{
     margin: 10px 0px 10px 0px;
     font-size: 20px;
