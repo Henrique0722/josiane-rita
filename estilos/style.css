@@ -190,7 +190,17 @@ main{
     font-family: oxygen;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719)
     }
-
+    .sessao-galeria{
+        display: flex;
+        overflow-x: scroll;
+        margin: 0 auto 20px auto;
+        border-radius: 35px 0px 35px 0px;
+        margin-top: 10px;
+    }
+    .sessao-galeria img{
+        width: 320px;
+        margin: 2px;
+    }
 
 .livro{
     padding: 20px;
@@ -263,16 +273,7 @@ main{
 .p-mentoria{
     margin: auto;
 }
-.sessao-galeria{
-    display: flex;
-    overflow-x: scroll;
-    margin: 0 auto 20px auto;
-    border-radius: 35px 0px 35px 0px;
-}
-.sessao-galeria img{
-    width: 320px;
-    margin: 2px;
-}
+
 .l-mentoria{
     margin: 10px 0px 10px 0px;
     font-size: 20px;
