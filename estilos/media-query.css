@@ -15,7 +15,9 @@
     } 
 
     @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
-
+        header > nav > a{
+            font-size: 1.3em;
+        }
         .biografia p{
             max-width: 900px;
             font-size: 1.2em;
@@ -44,7 +46,9 @@
 
     @media screen and (min-width: 1200px) {
         /*biografia*/
-
+        header > nav > a{
+            font-size: 1.4em;
+        }
     .media-bio{
         display: flex;
         flex-direction: row;
