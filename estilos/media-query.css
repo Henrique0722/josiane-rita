@@ -130,6 +130,14 @@
         flex-wrap: wrap;
         align-content: center;
     }
+    .media-terapia{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .img-importancia img{
+        height: 360px;
+    }
     }
 
 

@@ -118,21 +118,22 @@ main{
 .box-titulo-terapia{
     padding-top: 15px;
 }
-.terapia ul{
-    font-size: 20px;
-    text-align: justify;
-    color: white;
-    background-color: #5f1e2300;
-    padding: 10px;
-    border-radius: 35px 0px 35px 0px;
-    max-width: 400px;
-    margin: auto;
-    font-family: oxygen;
+.img-importancia img{
+   height: 300px;
+   border-radius: 35px 0px 35px 0px;
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.623);
+}
+.img-importancia{
+    text-align: center;
+    padding: 20px;
 }
 .lista-terapia{
-    padding: 15px;
-    
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-family: oxygen;
 }
+
 .terapia p{
     line-height: 35px;
     font-size: 20px;
