@@ -101,6 +101,7 @@
     }
     .img{
         height: 500px;
+        margin-bottom: 20px;
     }
     .titulo-livro{
         max-width: 500px;
@@ -108,7 +109,8 @@
         font-size: 25px;
     }
     .link{
-        font-size: 30px;
+        font-size: 40px;
+        padding: 12px;
     }
 
     /*mentoria*/
