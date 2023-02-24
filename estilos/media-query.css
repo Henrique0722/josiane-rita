@@ -72,18 +72,19 @@
     }
     .div1{
         width: 300px;
+        line-height: 20px;
     }
     .div2 .div3{
         width: 320px;
     }
     .div2 ul{
-            line-height: 57px;
+            line-height: 50px;
     }
     .div1 p{
         line-height: 40px;
     }
     .div3 p{
-        line-height: 50px;
+        line-height: 40px;
         width: 320px;
     }
     .div3 .titulo-beneficios{

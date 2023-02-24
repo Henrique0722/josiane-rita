@@ -24,7 +24,7 @@ header > nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(../imagens/fundo-menu.jpg);
+    background-image: linear-gradient(to top,#722429ee, #a70051 );
     background-size: cover;
     background-position: center bottom;
     height: 100%;
@@ -34,14 +34,14 @@ header > nav > a{
     text-decoration: none;
     color: white;
     padding: 5px;
-    
+    border: 1px solid white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
 
 }
 header> nav > a:hover{
     transition: 0.4s;
-    background-color: #5f1e23b7;
+  background-color: #722429;
 }
 main{
      background-image: url(../imagens/girassol.jpg);
@@ -85,8 +85,8 @@ main{
 .biografia p{
     max-width: 360px;
     margin: auto;
-    padding: 8px;
-    line-height: 30px;
+    padding: 14px;
+    line-height: 25px;
     font-size: 18px;
     background-image: linear-gradient( to bottom, #722429e5, #722429f1, #9c2961ce );
     color: white;
@@ -122,10 +122,9 @@ main{
     font-size: 20px;
     text-align: justify;
     color: white;
-    background-color: #5f1e2349;
+    background-color: #5f1e2300;
     padding: 10px;
     border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.822);
     max-width: 400px;
     margin: auto;
     font-family: oxygen;
