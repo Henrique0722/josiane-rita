@@ -17,7 +17,8 @@ header{
 }
 
 .logo{
-    border-radius: 50px;
+    border-radius: 10px;
+    height: 100px;
     
 }
 header > nav{
@@ -45,10 +46,8 @@ header> nav > a:hover{
   background-color: #722429;
 }
 main{
-     background-image: url(../imagens/girassol.jpg);
-     background-position: center left;
-     background-size: cover;
-     background-attachment: fixed;
+
+
      
 }
 
@@ -58,42 +57,54 @@ main{
 }
 
 .img-josi{
-   text-align: center;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .biografia img{
-    border-radius: 35px 0px 35px 0px; 
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.623);
     border: 1px solid white;
+    border-radius: 8px;
+    height: 340px;
 }
 
 .biografia h1{
-    text-align: center;
     padding: 8px;
-    color: white;
-    background-color: var(--cor2);
+    color: #d1960c;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
-    max-width: 200px;
     font-size: 1.4em;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    border-radius: 35px 0px 35px 0px;
+    width: 100%;
     border: 1px solid white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
     font-family: oxygen ;
 
 }
-.biografia p{
-    max-width: 360px;
-    margin: auto;
-    padding: 14px;
-    line-height: 25px;
-    font-size: 18px;
-    background-image: linear-gradient( to bottom, #722429e5, #722429f1, #9c2961ce );
-    color: white;
-    border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.699);
-    font-family: oxygen ;
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sobre p{
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: justify;
+
+}
+.quem-sou h1{
+    text-align: center;
+    }
+.objetivo-bio{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+    line-height: 29px;
+    padding: 0px;
+}
+.objetivo-bio h1{
+    padding: 0;
 }
 
 .terapia{

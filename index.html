@@ -11,16 +11,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Oxygen:wght@300&family=Sriracha&display=swap" rel="stylesheet">
 
-    <title>josiane Rita</title>
+    <title>Josiane Rita</title>
 </head>
 <body>
     <header>  
         <nav>
-            <img src="imagens/logo-josi.jpg" alt="" height="70px" class="logo">
-            <a href="#bio">Biografia</a>
-            <a href="#terapia">Benefícios</a>
-            <a href="#liv">Livro</a>
-            <a href="#men">Mentoria</a>
+            <img src="imagens/logo-josi (2).jpg" alt="" height="70px" class="logo">
+            <a href="#bio">Quem Sou Eu</a>
+            <a href="#terapia">Nossos Serviços</a>
+            <a href="#liv">Meus Livros</a>
+            <a href="#men">O Que Você Encontra Aqui</a>
+            <a href="#dep">Depoimento de Clientes</a>
             <a href="#con">Contato</a>
         </nav>
         
@@ -28,42 +29,32 @@
     
 
     <main id="bio" class="biografia">
-        <h1 class="t-principal">Josiane Ritta  Psicoterapeuta e Coach</h1>
-        
-        <div class="img-josi">
-            <img src="imagens/perfil josi.jpg" alt="" height="270px">
+       <div class="sobre">
+           <div class="img-josi">
+               <div>
+                   <h1 class="t-principal">Josiane Ritta  Psicoterapeuta e Escritora</h1>
+               </div>
+               <img src="imagens/perfil josi.jpg" alt="" height="270px">
+           </div>
+           <div class="quem-sou">
+               <h1>Quem Sou Eu</h1>
+               <p>Josiane Ritta é uma Personal Coach formada pela Sociedade Latino-Americana de Coach (SLAC), Psicoterapeuta com especialização em Hipnoterapia, Saúde Emocional e Autoconhecimento.
+                É Ghost writer (Escritor Fantasma) ajuda pessoas a escreverem seus livros e Mentora de Escrita, autora do livro "O Poder do Pensamento Organizado" e idealizadora da Imersão Mulher 360° e do curso Destravando Destinos.
+               
+                Ajuda as pessoas a descobrirem seus propósitos, ressignificarem suas vidas e destravarem seus destinos.
+               
+                Acredita que o autoconhecimento é a fonte de transformação de vida e sua missão é levar as pessoas a ressignificarem suas vidas, ativarem sua identidade e destravarem seus destinos.
+               
+                Superou desafios como abandono, rejeição, falta de identidade, complexo de inferioridade, necessidade de aprovação, carência, obesidade, medos, traumas, depressão profunda, crises de ansiedade e fobia social.</p>
+           </div>
+       </div>
+        <div class="objetivo-bio">
+            <h1>Objetivo</h1>
+            <p>Estou totalmente comprometida em ajudar as pessoas a descobrirem seus propósitos, ressignificarem suas vidas e destravarem seus destinos. Minha paixão é motivar as pessoas a despertarem sua identidade e alcançarem a prosperidade emocional e pessoal.
+                Minha jornada me levou a ajudar muitas pessoas a transformarem suas vidas por meio da Terapia, do Coaching e do autoconhecimento. Acredito que todos têm o poder de mudar suas vidas e estou aqui para guiá-los nesse processo.
+                Se você está em busca de uma transformação, de descobrir seu propósito e destravar seus bloqueios, estou aqui para te ajudar. Juntos, podemos alcançar a plenitude e viver uma vida abundante.</p>
+    
         </div>
-        <div class="media-bio">
-    <div>
-        
-                <h1>Especialização</h1>
-                <p>
-                    Josiane Ritta é formada em Personal Coach pela Sociedade Latino Americana de Coach (SLAC). <br>
-                    É Psicoterapeuta com especialização em Hipnoterapia, Saúde Emocional e Autoconhecimento. <br>
-                    Escritora do livro O Poder do Pensamento Organizado. Onde conta um pouco da sua história de superação e ensina como transformar sua vida renovando a sua mente. <br>
-                    Também é idealizadora da Imersão Mulher 360° e do curso Destravando Destinos.
-                </p>
-    </div>
-    
-    <div>
-        
-        <h1>Objetivo</h1>
-        
-        <p>
-            Como especialista meu objetivo e te ajudar em sua Saúde emocional motiva as pessoas a despertar sua identidade, descobrir seu propósito e destravar bloqueios, levando-as alcançar a prosperidade espiritual e pessoal. <br>
-            Em sua trajetória, ajudou muitas pessoas a transformarem suas vidas através da Terapia, do Coaching e do Autoconhecimento. Acredita fielmente que o autoconhecimento é a fonte de transformação de vida. Sua missão está em levar pessoas a ressignificar suas vidas.
-        </p>
-    </div>
-    
-    
-   <div>
-       
-       <h1>Um Pouco Sobre Mim</h1>
-       
-       <p>Tive uma infância, adolescência, juventude e parte da fase adulta muito difícil, com questões de abandono, rejeição, falta de identidade, complexo de inferioridade, necessidade de aprovação, carência, obesidade, medos, traumas, teve depressão profunda, crises de ansiedade, fobia social, enfim, hoje se levantou e se especializou para levar uma segunda chance aos que buscam VIDA.</p>
-   </div>
-    
-            </div>
     
     
         </main>
@@ -261,6 +252,23 @@
             <a href="tel:41988884451"><img src="imagens/telefone.png" alt="" height="25px"></a>
 
         </div>
+
+        
+
+   
+    <h1>Formulário de Contato</h1>
+    <form action="enviar_email.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
 
 
 
