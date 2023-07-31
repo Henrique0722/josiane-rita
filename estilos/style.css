@@ -52,6 +52,7 @@ main{
     align-content: stretch;
     justify-content: center;
     align-items: stretch;
+    border-bottom:1px solid #cea34e ;
 }
 
 .biografia{
@@ -73,7 +74,6 @@ main{
     border-radius: 8px;
     height: 340px;
 }
-
 .biografia h1{
     color: #d1960c;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
@@ -119,32 +119,31 @@ main{
     font-size: 1.7em;
     font-weight: bold;
 }
-
 .terapia{
-    background-image: linear-gradient( to left, #722429, #a70051 );
-    color: white;
-    
-    
+    font-size: 20px;
+    line-height: 29px;
+    border-bottom: 1px solid #cea34e;
 }
-.titulo-terapia, .titulo-livro, .titulo-beneficios{
-    text-align: center;
-    padding: 8px;
-    color: white;
-    background-color: var(--cor2);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
-    max-width: 250px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.623);
-    border: 1px solid white;
+.texto-milagre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
+.texto-milagre p{
+    max-width: 950px;
+}
+    .texto-baixo{
+        width: 92%;  
+        padding: 10px;  
+        margin: 0;  
+        text-align: justify;
+    }
 .box-titulo-terapia{
     padding-top: 15px;
 }
 .img-importancia img{
-   height: 300px;
+   height: 500px;
    border-radius: 35px 0px 35px 0px;
    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.623);
 }
@@ -152,71 +151,51 @@ main{
     text-align: center;
     padding: 20px;
 }
-.lista-terapia{
-    display: flex;
-    justify-content: center;
-    font-size: 21px;
-    font-family: oxygen;
-}
-
-.terapia p{
-    line-height: 35px;
-    font-size: 20px;
-    text-align: justify;
-    max-width: 600px;
-    margin: auto;
-    padding: 0 20px;
-    font-family: oxygen;
-    
-}
 .terapia h2{
     text-align: center;
     margin: 0;
     padding: 15px;
     
 }
-
-.beneficios{
-    background-image: url(../imagens/girassol.jpg);
-    background-size: cover;
-    background-position: center left;
-     background-attachment: fixed;
-    padding: 20px;
-    color: white;
-    
-}
-.beneficios ul{
-    margin: 10px 0px 10px 0px;
-    font-size: 20px;
-    color: white;
-    background-color: #5f1e23ee;
-    padding: 10px;
-    border-radius: 35px 0px 35px 0px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
+.terapia2 p{
     margin: auto;
-    margin-bottom: 10px;
-    max-width: 400px;
-    font-family: oxygen;
-}
-.lista-beneficios{
-    margin: 6px;
-}
-
-.beneficios p{
     text-align: justify;
-    margin: auto;
-    background-color: #5f1e23e8;
+    font-size: 21px;
+    line-height: 29px;
     padding: 10px;
-    border-radius: 35px 0px 35px 0px;
-    color: white;
-    font-size: 20px;
-    line-height: 35px;
-    max-width: 600px;
+    max-width: 1100px;
+}
+.container-tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.tipos-terapia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tipos-terapia p{
+    max-width: 900px;
+    font-size: 23px;
+    line-height: 36px;
     font-family: oxygen;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719)
+    border-bottom: 1px solid #cea34e;
+}
+.tipos-terapia img{
+        height: 270px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
     }
-    
-
+    .agende{
+        padding: 10px;
+        font-size: 20px;
+        color: #cea34e;
+        border: 1px solid #cea34e;
+    }
 .livro{
     padding: 20px;
     background-image: linear-gradient( 120deg, #722429, #a70051 );
