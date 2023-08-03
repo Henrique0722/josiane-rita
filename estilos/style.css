@@ -19,7 +19,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     background-position: center center;
-    height: 780px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,8 @@ header{
 
 .logo{
     border-radius: 10px;
-    height: 200px;
+    height: 400px;
+    opacity: 100%;
     border-radius: 20px;
     background-color: #ececec;
     
@@ -56,6 +57,7 @@ header> nav > a:hover{
     transform: scale(1.1, 1.1);
     font-size: 20px;
     text-shadow: 1px 1px 1px #cea34e;
+    background-color: rgba(0, 0, 0, 0.055);
     transition: .4s;
 }
 main{
