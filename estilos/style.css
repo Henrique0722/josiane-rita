@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family:'Borel';
+    src: url('../fontes/Borel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*Versão Mobile First*/
 body{
@@ -92,10 +98,9 @@ main{
     color: #d1960c;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
     font-size: 1.7em;
-    font-weight: bold;
+    font-weight: normal;
     width: 100%;
-    font-family: oxygen ;
-
+    font-family: 'Borel' ;
 }
 .sobre{
     display: flex;
@@ -131,7 +136,8 @@ main{
 .objetivo-bio h1{
     padding: 0;
     font-size: 1.7em;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'Borel' ;
 }
 .cont-borda{
     display: flex;
@@ -143,6 +149,7 @@ main{
 }
 /*TOPICO "O MILAGRE DA TERAPIA"*/
 .terapia{
+    
     font-size: 20px;
     line-height: 29px;
     display: flex;
@@ -159,6 +166,9 @@ main{
 }
 .texto-milagre p{
     max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  
 }
 .container{
     display: none;
@@ -191,10 +201,16 @@ button:hover{
     text-align: center;
     padding: 20px;
 }
-.terapia h2{
+.terapia2{
+background-image: url(../imagens/fundo2.jpg);
+background-size: cover;
+}
+.terapia h1{
     text-align: center;
     margin: 0;
     padding: 15px;
+    font-weight: normal;
+    font-family: 'Borel' ;
     
 }
 .terapia2 p{
@@ -262,6 +278,13 @@ button:hover{
         justify-content: center;
         align-items: center;
         padding: 10px;
+        background-image: url(../imagens/fundo-linhas.jpg);
+        background-size: cover;
+    }
+    .escrita h1{
+        font-weight: normal;
+        font-family: 'Borel' ;
+        font-size: 1.7em;
     }
     
     .cont-mento-escrita{
@@ -297,6 +320,7 @@ button:hover{
         max-width: 100%;
         font-size: 20px;
         color: #cea34e;
+        background-color: black;
         padding: 12px;
         margin: 10px;
         border-radius: 10px;
@@ -318,6 +342,8 @@ button:hover{
 }
 .titulo-livro{
     margin-top: 30px;
+    font-weight: normal;
+    font-family: 'Borel' ;
 }
 .livro p{
     text-align: justify;
