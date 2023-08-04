@@ -74,6 +74,10 @@ main{
     justify-content: center;
     align-items: stretch;
 }
+.fundo{
+    background-image: url(../imagens/27222.jpg);
+    background-size: cover;
+}
 
 .biografia{
     text-align: justify;
@@ -114,11 +118,13 @@ main{
     text-align: justify;
     padding: 10px;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.677);
 
 }
-.quem-sou, h1{
+.quem-sou{
     text-align: center;
     font-size: 1.6em;
+    background-color: rgba(255, 255, 255, 0.562);
     }
 .objetivo-bio{
     display: flex;
@@ -132,12 +138,15 @@ main{
 .objetivo-bio p{
     max-width: 830px;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.248);
 }
 .objetivo-bio h1{
     padding: 0;
     font-size: 1.7em;
     font-weight: normal;
+    text-align: center;
     font-family: 'Borel' ;
+    background-color: rgba(255, 255, 255, 0.374);
 }
 .cont-borda{
     display: flex;
@@ -202,7 +211,7 @@ button:hover{
     padding: 20px;
 }
 .terapia2{
-background-image: url(../imagens/fundo2.jpg);
+background-image: url(../imagens/27222.jpg);
 background-size: cover;
 }
 .terapia h1{
@@ -213,12 +222,22 @@ background-size: cover;
     font-family: 'Borel' ;
     
 }
+.terapia2 h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: normal;
+    font-family: 'Borel';
+    font-size: 2.2em;
+    color: #cea34e;
+}
 .terapia2 p{
     margin: auto;
     text-align: justify;
     font-size: 21px;
     line-height: 29px;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.341);
     max-width: 1100px;
 }
 .container-tipos{
@@ -244,7 +263,7 @@ background-size: cover;
 .tipos-terapia img{
         height: 270px;
         border-radius: 10px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.495);
+        box-shadow: 8px 8px 20px #cea34ebd;
     }
     .cont-borda2{
         display: flex;
@@ -252,12 +271,12 @@ background-size: cover;
     }
     .borda2{
         border-bottom: 2px solid #cea34e;
-        width: 53%;
+        width: 100%;
     }
     .agende{
-        text-decoration: none;
+    text-decoration: none;
     max-width: 260px;
-    font-size: 18px;
+    font-size: 20px;
     color: #cea34e;
     padding: 12px;
     margin: 10px;
@@ -269,6 +288,7 @@ background-size: cover;
         transform: scale(1.1, 1.1);
         font-size: 20px;
         text-shadow: 1px 1px 1px #cea34e;
+        background-color: white;
         transition: .4s;
     }
     /*TOPICO MENTORIA ESCRITA*/
