@@ -118,13 +118,11 @@ main{
     text-align: justify;
     padding: 10px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.677);
 
 }
 .quem-sou{
     text-align: center;
     font-size: 1.6em;
-    background-color: rgba(255, 255, 255, 0.562);
     }
 .objetivo-bio{
     display: flex;
@@ -138,7 +136,6 @@ main{
 .objetivo-bio p{
     max-width: 830px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.248);
 }
 .objetivo-bio h1{
     padding: 0;
@@ -292,14 +289,16 @@ background-size: cover;
         transition: .4s;
     }
     /*TOPICO MENTORIA ESCRITA*/
+    .fundo2{
+        background-image: url(../imagens/fundo2.jpg);
+        background-size: cover;
+    }
     .escrita{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 10px;
-        background-image: url(../imagens/fundo-linhas.jpg);
-        background-size: cover;
     }
     .escrita h1{
         font-weight: normal;
@@ -357,44 +356,27 @@ background-size: cover;
     /*TOPICO LIVRO*/
     .livro{
     padding: 20px;
-    background-image: linear-gradient( 120deg, #722429, #a70051 );
-    color: white;
-}
-.titulo-livro{
-    margin-top: 30px;
-    font-weight: normal;
-    font-family: 'Borel' ;
-}
-.livro p{
-    text-align: justify;
-    font-size: 20px;
-    line-height: 25px;
-    max-width: 500px;
-    background-color: #7224298c;
-    padding: 15px;
-    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
-    border-radius: 35px 0px 35px 0px;
-    margin: 10px;
-    font-family: oxygen;
-}
-.paragrafo-livro{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
 }
 .livro img{
-    border-radius: 35px 0px 35px 0px;
-    box-shadow: 12px 9px 10px rgba(0, 0, 0, 0.548);
-    margin-bottom: 20px;
+    height: 300px;
+}
+.cont-flex-liv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-liv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-liv p{
+    max-width: 50%;
+    text-align: justify;
 }
 
-.img-livro{
-    text-align: center;
-} 
-.img2-livro {
-    text-align: center;
-}
 .link2{
     display: none;
 }
