@@ -90,6 +90,11 @@
     /*FIM MENU*/
     
     /*BIOGRAFIA*/
+    .fundo{
+        background-image: url(../imagens/27222.jpg);
+        background-size: cover;
+        background-position: center top;
+    }
     .sobre{
         display: flex;
         flex-direction: column;
