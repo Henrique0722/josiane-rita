@@ -131,7 +131,14 @@
     .tipos-terapia p{
         font-size: 14px;
         max-width: 50%;
-        line-height: 22px;
+        line-height: 15px;
+    }
+    .agende{
+        font-size: 15px;
+        padding: 8px;
+    }
+    .agende a:hover{
+        font-size: 16px;
     }
     /*FIM TERAPIA 2*/
 
