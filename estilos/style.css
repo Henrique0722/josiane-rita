@@ -161,7 +161,6 @@ main{
 }
 /*TOPICO "O MILAGRE DA TERAPIA"*/
 .terapia{
-    
     font-size: 20px;
     line-height: 29px;
     display: flex;
@@ -174,13 +173,12 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 50%;
 }
 .texto-milagre p{
     max-width: 100%;
     padding: 10px;
     border-radius: 10px;
-  
+    max-width: 500px;
 }
 .container{
     display: none;
@@ -240,7 +238,6 @@ background-size: cover;
     font-size: 21px;
     line-height: 29px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.341);
     max-width: 1100px;
 }
 .container-tipos{
@@ -327,7 +324,7 @@ background-size: cover;
         height: 360px;
     }
     .cont-mento-escrita p{
-        max-width: 50%;
+       
         font-size: 20px;
         line-height: 29px;
         

@@ -88,7 +88,8 @@
         display: block;
     }
     /*FIM MENU*/
-
+    
+    /*BIOGRAFIA*/
     .sobre{
         display: flex;
         flex-direction: column;
@@ -96,24 +97,74 @@
         padding: 10px;
     }
     .sobre p{
-        width: 90vw;
+        width: 80vw;
     }
     .objetivo-bio{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    /*FIM BIOGRAFIA*/
+    /*TERAPIA 1*/
     .terapia{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
     .terapia > .texto-milagre{
         text-align: justify;
+        width: 80vw;
     }
     .img-importancia img{
         height: 250px;
+    }
+    /*FIM TERAPIA 1*/
+
+    /*TERAPIA 2*/
+    .terapia2 p{
+        max-width: 90vw;
+    }
+    .tipos-terapia img{
+        height: 100px;
+    }
+    .tipos-terapia p{
+        font-size: 14px;
+        max-width: 50%;
+        line-height: 22px;
+    }
+    /*FIM TERAPIA 2*/
+
+    /*ESCRITA*/
+    .cont-mento-escrita{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont-mento-escrita p{
+        width: 90vw;
+    }
+    .cont-mento-escrita img{
+        height: 240px;
+    }
+    .vaga{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .vaga:hover{
+        box-shadow: 3px 2px 1px 2px #cea34e92;
+        font-size: 15px;
+        transform: scale(1.1, 1.1);
+        text-shadow: 1px 1px 1px #cea34e;
+        transition: .4s;
+    }
+    /*FIM ESCRITA*/
+
+    /*LIVROS*/
+
+    .flex-liv{
+        display: flex;
+        flex-direction: column;
     }
 }
     
