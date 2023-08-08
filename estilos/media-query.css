@@ -254,20 +254,9 @@
     }
 
     /*livro*/
-    .livro{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: stretch;
-    }
     .img{
         height: 400px;
         margin-bottom: 20px;
-    }
-    .titulo-livro{
-        max-width: 500px;
-        padding: 20px;
-        font-size: 25px;
     }
     .link{
         display: none;

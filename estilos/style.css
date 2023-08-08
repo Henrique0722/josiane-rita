@@ -357,11 +357,23 @@ background-size: cover;
     }
 
     /*TOPICO LIVRO*/
-    .livro{
+    section > .livro{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-livro{
+    text-align: center;
+    text-align: center;
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.2em;
 }
 .livro img{
-    height: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow:2px 2px 16px 6px #cea34eee;;
 }
 .cont-flex-liv{
     display: flex;
@@ -376,54 +388,59 @@ background-size: cover;
     align-items: center;
 }
 .flex-liv p{
-    max-width: 50%;
+    max-width: 60%;
+    line-height: 23px;
+    font-size: oxygen;
+    font-size: 20px;
+    margin: 0;
     text-align: justify;
 }
-
-.link2{
-    display: none;
+.img2-liv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.pai-img-mentoria{
+.peça{
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
     text-align: center;
-    padding-bottom: 10px;
-}
-.img-mentoria{
-    border-radius: 35px 0px 35px 0px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
-    opacity: 87%;
+    color: #cea34e;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.395);
+    }
+    .peça:hover{
+        box-shadow: 3px 2px 1px 2px #cea34e92;
+        transform: scale(1.1, 1.1);
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #cea34e;
+        background-color: white;
+        transition: .4s;
+    }
+ /*FIM LIVRO*/
 
+ /*DEPOIMENTO DE CLIENTES*/
 
-}
-.mentoria{
-    background-image: url(../imagens/girassol.jpg);
+.Depoimento{
+    background-image: url(../imagens/27222.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center top;
      background-attachment: fixed;
-     color: white;
-     padding: 20px;
+    padding: 20px;
 }
-.mentoria p{
-    text-align: justify;
-    margin: auto;
-    font-size: 18px;
-    line-height: 33px;
-    max-width: 400px;
-    background-image: linear-gradient(to bottom, #722429e5, #722429e7, #9c2961ce );
-    padding: 15px;
-    margin-bottom: 10px;
-    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.74);
-    border-radius: 35px 0px 35px 0px;
-    
-    font-family: oxygen;
-}
-.p-mentoria{
+.Depoimento h2{
     text-align: center;
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.2em;
 }
 .sessao-galeria{
     display: flex;
     overflow-x: scroll;
     margin: 0 auto 20px auto;
-    border-radius: 35px 0px 35px 0px;
+    border-radius: 25px;
     margin-top: 10px;
     max-width: 1000px;
 }
@@ -431,70 +448,57 @@ background-size: cover;
     width: 320px;
     margin: 2px;
 }
-
-.l-mentoria{
-    margin: 10px 0px 10px 0px;
-    font-size: 20px;
-    color: white;
-    background-image: linear-gradient(to bottom, #9c2961ce, #722429f1  );
-    padding: 10px;
-    border-radius: 35px 0px 38px 0px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
-    margin: auto;
-    line-height: 40px;
-    margin-bottom: 10px;
-    max-width: 400px;
-    font-family: oxygen;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    text-align: justify;
+/*FORMULÁRIO*/
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.link{
-    background-color: #a70051 ;
-    padding: 10px;
-    color: white;
-    margin-top: 40px;
-    text-decoration: none;
-    border-radius: 10px;
-
-}
-.link-2{
-  display: none;
-
-}
-.link:hover{
-    background-color: white;
-    color: black;
-    transition: .5s;
-}
-.link-container{
-    margin-top: 18px;
+.form h2{
     text-align: center;
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.2em;
 }
-.link-container2{
-    margin: auto;
-    
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #cea34e;
 }
+form input, textarea{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .contato{
-    background-image: linear-gradient(to top, #9c2961, #722429 );
-    color: white;
+    background-image: url(../imagens/1122.jpg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 .icons{
-    max-width: 500px;
+    max-width: 50%;
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 8px;
     
 }
 .icons img{
-    padding: 10px;
+    
+    padding: 15px;
     background-color:var(--cor4);
-    border-radius: 10px;
+    border-radius: 50%;
     border: 1px solid white;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.753);
 }
