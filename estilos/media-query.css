@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
     @media screen and (max-width: 992px)  {
+        /*MENU*/
       header{
         background-image: url(../imagens/fundo-menu-tel.jpg);
         background-size: cover;
@@ -40,7 +41,7 @@
 
       .logo{
         border-radius: 10px;
-        height: 200px;
+        height: 280px;
         opacity: 100%;
         border-radius: 20px;
         
@@ -85,6 +86,34 @@
     }
     .open {
         display: block;
+    }
+    /*FIM MENU*/
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .sobre p{
+        width: 90vw;
+    }
+    .objetivo-bio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terapia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .terapia > .texto-milagre{
+        text-align: justify;
+    }
+    .img-importancia img{
+        height: 250px;
     }
 }
     
