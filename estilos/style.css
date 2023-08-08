@@ -37,7 +37,6 @@ header{
     height: 400px;
     opacity: 100%;
     border-radius: 20px;
-    background-color: #ececec;
     
 }
 header > nav{
@@ -65,6 +64,13 @@ header> nav > a:hover{
     text-shadow: 1px 1px 1px #cea34e;
     background-color: rgba(0, 0, 0, 0.055);
     transition: .4s;
+}
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 main{
     display: flex;

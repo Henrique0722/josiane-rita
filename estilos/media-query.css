@@ -1,19 +1,93 @@
 @charset "UTF-8";
 
-    @media screen and (min-width: 768px) and (max-width: 992px)  {
-        .biografia p{
-            max-width: 700px;
+    @media screen and (max-width: 992px)  {
+      header{
+        background-image: url(../imagens/fundo-menu-tel.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
+      header > nav > a{
+        display: none;
+      }
+       .mobile-menu > ul > li > a{
+        font-size: 15px;
+        color: #cea34e;
+        text-decoration: none;
+        padding: 8px;
+        max-width: 300px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.395);
+      }
+      .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        align-items: flex-start;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
         }
-        .biografia h1{
-           
+        .mobile-menu ul a:hover{
+            box-shadow: 3px 2px 10px 2px #cea34e;
+            transform: scale(1.1, 1.1);
+            font-size: 20px;
+            text-shadow: 1px 1px 1px #cea34e;
+            background-color: rgba(0, 0, 0, 0.055);
+            transition: .4s;
+        }
+
+      .logo{
+        border-radius: 10px;
+        height: 200px;
+        opacity: 100%;
+        border-radius: 20px;
         
     }
-    .img{
-        height: 400px;
+
+
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
     }
-
-    } 
-
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+    
     @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
         header > nav > a{
             font-size: 1.3em;
