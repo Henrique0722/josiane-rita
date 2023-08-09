@@ -18,6 +18,23 @@ body{
     --cor5: #3c5970;
     --cor6: #5b8379;
 }
+/*FUNDOS*/
+.fundo{
+    background-image: url(../imagens/27222.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fundo2{
+    background-image: url(../imagens/fundo2.jpg);
+    background-size: cover;
+}
+.fundo3{
+    background-image: url(../imagens/27222.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+/*FIM FUNDOS*/
 header{
     height: 150px;
     background-image: url(../imagens/fundo-menu.jpg);
@@ -80,10 +97,8 @@ main{
     justify-content: center;
     align-items: stretch;
 }
-.fundo{
-    background-image: url(../imagens/27222.jpg);
-    background-size: cover;
-}
+
+
 
 .biografia{
     text-align: justify;
@@ -110,6 +125,8 @@ main{
     font-size: 1.7em;
     font-weight: normal;
     width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
     font-family: 'Borel' ;
 }
 .sobre{
@@ -149,6 +166,7 @@ main{
     font-weight: normal;
     text-align: center;
     font-family: 'Borel' ;
+    text-shadow: 1px 1px 2px black;
     background-color: rgba(255, 255, 255, 0.374);
 }
 .cont-borda{
@@ -221,6 +239,7 @@ background-size: cover;
     padding: 15px;
     font-weight: normal;
     font-family: 'Borel' ;
+    text-shadow: 1px 1px 2px black;
     
 }
 .terapia2 h1{
@@ -231,6 +250,7 @@ background-size: cover;
     font-family: 'Borel';
     font-size: 2.2em;
     color: #cea34e;
+    text-shadow: 1px 1px 2px black;
 }
 .terapia2 p{
     margin: auto;
@@ -292,10 +312,7 @@ background-size: cover;
         transition: .4s;
     }
     /*TOPICO MENTORIA ESCRITA*/
-    .fundo2{
-        background-image: url(../imagens/fundo2.jpg);
-        background-size: cover;
-    }
+    
     .escrita{
         display: flex;
         flex-direction: column;
@@ -306,7 +323,9 @@ background-size: cover;
     .escrita h1{
         font-weight: normal;
         font-family: 'Borel' ;
-        font-size: 1.7em;
+        font-size: 1.9em;
+        color: #cea34e;
+        text-shadow: 1px 1px 2px black;
     }
     
     .cont-mento-escrita{
@@ -368,6 +387,7 @@ background-size: cover;
     color: #cea34e;
     font-family: 'Borel';
     font-size: 2.2em;
+    text-shadow: 1px 1px 2px black;
 }
 .livro img{
     height: 400px;
@@ -424,10 +444,7 @@ background-size: cover;
  /*DEPOIMENTO DE CLIENTES*/
 
 .Depoimento{
-    background-image: url(../imagens/27222.jpg);
-    background-size: cover;
-    background-position: center top;
-     background-attachment: fixed;
+   
     padding: 20px;
 }
 .Depoimento h2{
@@ -435,6 +452,7 @@ background-size: cover;
     color: #cea34e;
     font-family: 'Borel';
     font-size: 2.2em;
+    text-shadow: 1px 1px 2px black;
 }
 .sessao-galeria{
     display: flex;
@@ -460,6 +478,7 @@ background-size: cover;
     color: #cea34e;
     font-family: 'Borel';
     font-size: 2.2em;
+    text-shadow: 1px 1px 2px black;
 }
 form{
     display: flex;
@@ -469,20 +488,39 @@ form{
     max-width: 100%;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 15px #cea34e;
 }
 form input, textarea{
     width: 100%;
     height: 30px;
     border-radius: 20px;
     padding: 5px;
+    font-size: 16px;
+}
+form .btn-form{
+    height: 40px;
+    font-size: 18px;
+    color: white; 
+    background-color: #cea34e;
+}
+form .btn-form:hover{
+    color: black;
+    transition: .3s;
+}
+fieldset legend{
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.0em;
+    
 }
 
 .contato{
-    background-image: url(../imagens/1122.jpg);
-    background-size: cover;
-    background-position: center;
     text-align: center;
+}
+.contato h2{
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.0em;
+    text-shadow: 1px 1px 2px black;
 }
 .icons{
     max-width: 50%;
