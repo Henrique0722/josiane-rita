@@ -201,6 +201,9 @@ main{
 .container{
     display: none;
 }
+.ocultar{
+    display: none;
+}
 button{
     max-width: 180px;
     font-size: 18px;
@@ -408,12 +411,24 @@ background-size: cover;
     align-items: center;
 }
 .flex-liv p{
-    max-width: 60%;
+    max-width: 100%;
     line-height: 23px;
     font-size: oxygen;
     font-size: 20px;
     margin: 0;
     text-align: justify;
+}
+.encontra{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: center;
+}
+.escon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
 }
 .img2-liv{
     display: flex;
