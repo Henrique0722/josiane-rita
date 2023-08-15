@@ -5,8 +5,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fontes/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/*Versão Mobile First*/
+
 body{
     margin: 0;
 }
@@ -47,6 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Poppins';
 }
 
 .logo{
@@ -96,6 +103,7 @@ main{
     align-content: stretch;
     justify-content: center;
     align-items: stretch;
+    font-family: 'Poppins';
 }
 
 
@@ -141,6 +149,7 @@ main{
     text-align: justify;
     padding: 10px;
     width: 100%;
+    
 
 }
 .quem-sou{
@@ -322,6 +331,7 @@ background-size: cover;
         justify-content: center;
         align-items: center;
         padding: 10px;
+        font-family: 'Poppins';
     }
     .escrita h1{
         font-weight: normal;
@@ -343,21 +353,23 @@ background-size: cover;
         box-shadow: 2px 2px 16px 6px #cea34eee;
     }
     .cont-mento-escrita .img2{
-        height: 360px;
+        height: 340px;
     }
     .cont-mento-escrita p{
-       
+       margin: 10px;
         font-size: 20px;
         line-height: 29px;
         
     }
     .div2{
-        max-width: 60%;
         text-align: justify;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .div2 p{
+        width: 70%;
     }
     .vaga{
         text-decoration: none;
@@ -509,6 +521,9 @@ background-size: cover;
     height: 100%;
     object-fit: cover;
 }
+.overflow{
+    display: none;
+}
 /*FORMULÁRIO*/
 .form{
     display: flex;
@@ -576,12 +591,15 @@ fieldset legend{
     
 }
 .icons img{
-    
+    background-size: cover;
     padding: 15px;
     background-color:var(--cor4);
     border-radius: 50%;
     border: 1px solid white;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.753);
+}
+.icons a img{
+    height: 50px;
 }
 .icons img:hover{
     transform:translate(-5px, -5px);

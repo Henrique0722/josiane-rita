@@ -178,6 +178,18 @@
         display: flex;
         flex-direction: column;
     }
+    .overflow{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .overflow img{
+        height: 270px;
+        margin: 5px;
+    }
+    .cont-box{
+        display: none;
+    }
 }
     
     @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
@@ -209,6 +221,7 @@
         }
     
     }
+    
 
     @media screen and (min-width: 1200px) {
         /*biografia*/
