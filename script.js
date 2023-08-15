@@ -36,7 +36,7 @@ btn.addEventListener('click', function() {
 })
 
 let box = document.querySelector('.box')
-window.ontouchmove = function(e) {
+window.onmousemove = function(e) {
     let x = e.clientX/3;
     box.style.transform = "perspective(1000px) rotateY("+ x + "deg)";
 }
