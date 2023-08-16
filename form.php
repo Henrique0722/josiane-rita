@@ -1,10 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se as variáveis do formulário estão definidas
-    if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"])) {
+    if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"])) && isset($_POST["numero"]) {
         // Informações do formulário
         $nome = $_POST["nome"];
         $email = $_POST["email"];
+        $numero = $_POST["numero"]
         $mensagem = $_POST["mensagem"];
 
         // E-mail de destino
@@ -16,6 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Corpo do e-mail
         $corpo_email = "Nome: $nome\n";
         $corpo_email .= "E-mail: $email\n";
+        $corpo_email .= "numero: $numero\n";
         $corpo_email .= "Mensagem:\n$mensagem";
 
         // Cabeçalhos do e-mail

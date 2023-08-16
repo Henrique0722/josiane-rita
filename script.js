@@ -11,9 +11,7 @@ function menuShow() {
 
 /*
 var btn = document.querySelector('#esconder');
-//var btn = document.querySelector('#escon2');
 var container = document.querySelector('.container');
-//var container = document.querySelector('.esconder.cont2');
 
 btn.addEventListener('click', function() {
 
