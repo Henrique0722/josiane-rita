@@ -190,7 +190,46 @@ main{
 
 /*FIM PALESTRAS E CURSOS*/
 .palestras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.palestras h2{
+    text-align: center;
+    color: #d1960c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
+    font-size: 2.7em;
+    font-weight: normal;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Borel' ;
+}
+.palestras p{
+    max-width: 1200px;
+    font-family: 'Poppins';
+    font-size: 20px;
 
+}
+
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 /*TOPICO "O MILAGRE DA TERAPIA"*/
 
@@ -241,8 +280,8 @@ background-size: cover;
     padding-top: 15px;
     font-weight: normal;
     font-family: 'Borel';
-    font-size: 2.2em;
-    color: #cea34e;
+    font-size: 2.7em;
+    color: #d1960c;
     text-shadow: 1px 1px 2px black;
 }
 .terapia2 p{
@@ -252,11 +291,13 @@ background-size: cover;
     line-height: 29px;
     padding: 10px;
     max-width: 1100px;
+    font-family: 'Poppins';
+    line-height: 30px;
 }
 .container-tipos{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
@@ -309,7 +350,7 @@ background-size: cover;
     .escrita{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 10px;
         font-family: 'Poppins';
@@ -317,28 +358,32 @@ background-size: cover;
     .escrita h1{
         font-weight: normal;
         font-family: 'Borel' ;
-        font-size: 1.9em;
-        color: #cea34e;
+        font-size: 2.6em;
+        text-align: center;
+        color: #d1960c;
         text-shadow: 1px 1px 2px black;
     }
-    
     .cont-mento-escrita{
+        width: 100%;
+    }
+    .mento-escrita{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
-    .cont-mento-escrita img{
-        height: 300px;
+    .mento-escrita img{
+        height: 500px;
         border-radius: 10px;
         box-shadow: 2px 2px 16px 6px #cea34eee;
     }
-    .cont-mento-escrita .img2{
-        height: 340px;
+    .mento-escrita .img2{
+        height: 350px;
     }
-    .cont-mento-escrita p{
+    .mento-escrita p{
        margin: 10px;
         font-size: 20px;
+        max-width: 800px;
         line-height: 29px;
         
     }
@@ -380,9 +425,10 @@ background-size: cover;
 .titulo-livro{
     text-align: center;
     text-align: center;
-    color: #cea34e;
+    color: #d1960c;
     font-family: 'Borel';
-    font-size: 2.2em;
+    margin-bottom: 0;
+    font-size: 2.9em;
     text-shadow: 1px 1px 2px black;
 }
 .livro img{
@@ -404,9 +450,9 @@ background-size: cover;
     align-items: center;
     padding: 10px;
 }
-.flex-liv p{
-    line-height: 23px;
-    font-size: oxygen;
+.livro p{
+    line-height: 28px;
+    font-family: 'Poppins';
     font-size: 20px;
     margin: 0;
     text-align: justify;
@@ -433,10 +479,11 @@ background-size: cover;
     align-items: center;
 }
 .tit-lista{
-    color: #cea34e;
+    color: #d1960c;
     font-size: 2.0em;
     font-family: 'Borel';
     text-shadow: 1px 1px 2px black;
+
 }
 .img2-liv{
     display: flex;
@@ -467,7 +514,7 @@ background-size: cover;
 /*Espiral*/
 .Depoimento h2{
     text-align: center;
-    color: #cea34e;
+    color: #d1960c;
     font-family: 'Borel';
     font-size: 2.2em;
     text-shadow: 1px 1px 2px black;
@@ -518,7 +565,7 @@ background-size: cover;
 }
 .form h2{
     text-align: center;
-    color: #cea34e;
+    color: #d1960c;
     font-family: 'Borel';
     font-size: 2.2em;
     text-shadow: 1px 1px 2px black;
@@ -550,10 +597,10 @@ form .btn-form:hover{
     transition: .3s;
 }
 fieldset legend{
-    color: #cea34e;
+    color: #d1960c;
     font-family: 'Borel';
     font-size: 2.0em;
-    
+    text-shadow: 1px 1px 2px black;
 }
 
 .contato{
