@@ -110,6 +110,21 @@
         align-items: center;
     }
     /*FIM BIOGRAFIA*/
+
+    /*PALESTRAS E CURSOS*/
+    .card img{
+        height: 250px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card img:hover{
+        height: 300px;
+        transition: .4s;
+        
+    }
+
+    /*FIM PALESTRAS E CURSOS*/
+
     /*TERAPIA 1*/
     .terapia{
         display: flex;
@@ -188,6 +203,9 @@
       
     }
     .column{
+        max-width: 90%;
+    }
+    .encontra{
         max-width: 90%;
     }
     .overflow{
