@@ -223,6 +223,9 @@
     .esconder.cont2 p{
         max-width: 90%;
     }
+    .icons a img{
+        height: 20px;
+    }
 }
     
     @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
