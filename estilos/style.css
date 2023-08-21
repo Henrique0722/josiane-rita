@@ -208,7 +208,9 @@ main{
 .palestras p{
     max-width: 1200px;
     font-family: 'Poppins';
+    padding: 10px;
     font-size: 20px;
+    text-align: justify;
 
 }
 
@@ -224,6 +226,12 @@ main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
     margin: 10px;
     border-radius: 10px 10px 0px 0px;
+}
+.palestras .txt-card{
+    font-size: 1.7em;
+    text-align: center;
+    color: #d1960c;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .card img{
     height: 250px;
@@ -606,6 +614,13 @@ fieldset legend{
     text-align: center;
 }
 .contato h2{
+    color: #cea34e;
+    font-family: 'Borel';
+    font-size: 2.0em;
+    text-shadow: 1px 1px 2px black;
+}
+.motiv{
+    font-size: 1.9em;
     color: #cea34e;
     font-family: 'Borel';
     font-size: 2.0em;

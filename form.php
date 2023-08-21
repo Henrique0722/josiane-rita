@@ -1,11 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se as variáveis do formulário estão definidas
-    if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"])) && isset($_POST["numero"]) {
+    if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) && isset($_POST["telefone"])) {
         // Informações do formulário
         $nome = $_POST["nome"];
         $email = $_POST["email"];
-        $numero = $_POST["numero"]
+        $numero = $_POST["telefone"];
         $mensagem = $_POST["mensagem"];
 
         // E-mail de destino
