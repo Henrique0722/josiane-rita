@@ -1,6 +1,6 @@
 <?php
-require("/home/usuario/diretoriodeinstalação/PHPMailer-master/src/PHPMailer.php");
-require("/home/usuario/diretoriodeinstalação/PHPMailer-master/src/SMTP.php");
+require("./PHPMailer/src/PHPMailer.php");
+require("./PHPMailer-master/src/SMTP.php");
 $nome = $_POST["nome"];
 $email = $_POST["email"];
 $numero = $_POST["telefone"];
@@ -24,9 +24,9 @@ $corpo_email .= "Mensagem:\n$mensagem";
  $mail->Host = "servidor.hostgator.com.br";
  $mail->Port = 465; // or 587
  $mail->IsHTML(true);
- $mail->Username = "origem@dominio.com.br";
- $mail->Password = "insira a senha aqui";
- $mail->SetFrom("origem@dominio.com.br");
+ $mail->Username = "contato@josianeritta.com.br";
+ $mail->Password = "Josi090502@";
+ $mail->SetFrom("contato@josianeritta.com.br");
  $mail->Subject = $assunto;
  $mail->Body =  $corpo_email;
  $mail->AddAddress("destino@dominio.com.br");
