@@ -71,11 +71,11 @@ header > nav{
 
 }
 header > nav > a{
-    font-size: 18px;
+    font-size: 15px;
     color: #cea34e;
     text-decoration: none;
     padding: 12px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.171);
     
