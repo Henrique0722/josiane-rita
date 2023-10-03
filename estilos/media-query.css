@@ -232,6 +232,10 @@
     .icons a img{
         height: 20px;
     }
+    .coautora{
+        display: flex;
+        flex-direction: column;
+    }
 }
     
     @media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
@@ -267,6 +271,7 @@
             padding: 20px;
             font-size: 25px;
         }
+        
     
     }
     
