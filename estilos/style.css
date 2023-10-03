@@ -397,12 +397,16 @@ background-size: cover;
     .div2{
         text-align: justify;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
     .div2 p{
         width: 100%;
+    }
+    .div2 h1{
+        margin-bottom: 0;
+        margin-top: 50px;
     }
     .vaga{
         text-decoration: none;
