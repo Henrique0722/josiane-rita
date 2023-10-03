@@ -194,6 +194,16 @@
     .escrita img{
         height: 220px;
     }
+    .img-escritoras{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-escritoras .img2{
+        display: none;
+    }
+               
+                    
+
     /*FIM ESCRITA*/
 
     /*LIVROS*/
