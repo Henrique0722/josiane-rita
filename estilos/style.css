@@ -124,7 +124,7 @@ main{
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.623);
     border: 1px solid white;
     border-radius: 8px;
-    height: 340px;
+    height: 350px;
 }
 .biografia h1{
     color: #d1960c;
@@ -158,6 +158,7 @@ main{
 .objetivo-bio{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     font-size: 20px;
     margin: 0;

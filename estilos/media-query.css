@@ -109,6 +109,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .biografia img{
+        height: 275px;
+    }
     /*FIM BIOGRAFIA*/
 
     /*PALESTRAS E CURSOS*/
